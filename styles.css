@@ -51,6 +51,9 @@ body * {
     text-decoration: none;
     color: white;
 }
+li a:hover{
+    color: #E3B873;
+}
 .phone {
     color: #E3B873;
 }
@@ -59,6 +62,20 @@ body * {
     background-size: cover;
     height: 707px;
     padding-top: 194px;
+    position: relative;
+}
+.block_1-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.block_1-container {
+    position: relative;
+    z-index: 1;
 }
 .title {
     margin: 0;
@@ -70,9 +87,6 @@ body * {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.colortext {
-    color: #E3B873 ;
-}
 .block_1_text {
     font-family: Nunito;
     font-style: normal;
@@ -80,4 +94,26 @@ body * {
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
+}
+.colortext {
+    color: #E3B873 ;
+}
+.block_2 {
+    background-color: black;
+    height: 1064px;
+}
+.calculate {
+    position: relative;
+    margin-left: 35px;
+    width: 207px;
+    height: 51px;
+    font-size: 11px;
+}
+.submit {
+    margin-left: 14px;
+    position: relative;
+    height: 51px;
+    font-size: 11px;
+    background: none;
+    border: 1px solid white;
 }
