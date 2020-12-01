@@ -539,83 +539,52 @@ ul:first-child {
 .container_2 {
     width: 100%;
     /*max-width: 1440px;*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     background-color: #FFFFFF;
     height: 1466px;
-    position: relative;
-    
-}
-.repair__work {
-    position: relative;
-    margin-top: -217px;
-    left: 50%;
-    
-
-
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    /*position: relative;*/
     /*display: block;
-    left: 50%;
-    width: 100%
-    
-    margin-left: auto;
-    margin-right: auto;
-    
-    position: absolute;
+    text-align: center;*/
 }
-    /*margin-top: -217px;
-}
-.repair__work {
-    
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   /* margin-left: 412px;
-    margin-top: -203px;
-    position: absolute;
-}*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.hidden_background {
+.overlay__mass {
+    /*display: block;
+    text-align: center;
+    width: 100%;*/
+    position: relative;
     width: 817px;
     height: 434px;
-    position: relative;
-    margin-top: -50px;
-    background: purple;
+}
 
-}*/
+.repair__work {
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.repair_work-overlay {
+    width: 817px;
+    height: 434px;
+    z-index: 1000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -624,41 +593,6 @@ ul:first-child {
 
 
 /*
-
-
-.submit_application {
-    width: 817px;
-    height: 434px;
-    position: relative;
-    /*margin-top: -203px;*/
-}
-
-
-
-
-
-
-
-/*
-
-.repair__work {
-    position: absolute;
-    left: 312px;
-    /*margin-top: -203px;*/
-    z-index: 1;
-    opacity: 0.7;
-}*/
-
-/*.repair_work-overlay {
-    z-index: 10;
-    margin: 100px;
-    color: rgba(0, 0, 0, .7);
-}
-
-
-
-
-
 .circle {
     margin-top: -280px;
     margin-left: 676px;
@@ -670,7 +604,7 @@ ul:first-child {
     content: '';
     position: relative;
     cursor: pointer;
-    
+
 }
 
 .play { 
@@ -683,10 +617,7 @@ ul:first-child {
     left: 32px;
     top: 27px;
     z-index: 1;
-}
-
-
-
+}*/
 
 
 .line__under__picture {
@@ -695,6 +626,6 @@ ul:first-child {
     background-color: #E3B873;
     position: relative;
     left: 50%;
+    margin-top: 62.5px;
     top: 200px;
-
 }
