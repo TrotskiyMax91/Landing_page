@@ -10,6 +10,7 @@ font-family: Nunito;
 body {
     margin: 0;
     background-color: black;
+    /*max-width: 1437px;*/
 }
 
 *,
@@ -18,7 +19,9 @@ body {
     box-sizing: border-box;
 }
 
-
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 .button {
     text-decoration: none;
     display: inline-block;
@@ -29,7 +32,9 @@ body {
     border-radius: 2px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     /*outline: 0;*/
-    border: 0;
+    border: 1px;
+    border-color: transparent;
+    
     transition-duration: .3s;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -45,7 +50,7 @@ body {
 
 .button--color:hover {
     background-color: transparent;
-    border: 1px solid #FFFFFF;   
+    /*border: 1px solid #FFFFFF;*/  
 }
 
 /*Container
@@ -89,7 +94,6 @@ body {
     font-size: 11px;
     color: #fff;
     font-family: Nunito;
-
 }
 .header-navigation_item {
     margin-right: 47.09px;
@@ -171,9 +175,7 @@ li a:hover{
     height: 89px;
     
 }
-h2 {
-    margin: 0;
-}
+
 .button__2 {
     margin-left: 20px;
 }
@@ -195,39 +197,504 @@ h2 {
 
 /*Completed projects
 =========*/
-.projects {
-    margin: 0;
+/*.projects {
+    margin: 0 0 0 134px;
     height: 1074px;
+    max-width: 442px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-size: cover;
     position: relative;
 }
 
-
+/*.projects__inner {
+    
+    margin: 0 863.px 0 0;
+}
 
 
 .completed_projects {
-    /*width: 253px;
-    height: 66px;*/
+    margin-top: 176.36px;
+    width: 253px;
+    height: 66px;
     color: #E3B873;
     font-family: YesevaOne;
     font-size: 27px;
     font-style: normal;
+    text-transform: uppercase;
+    line-height: 37.42px;
+    letter-spacing: -7%;
+    margin-bottom: 34px;
 }
-
-
-
-.projects__inner {
-    
-    
+h3 {
+    margin: 0;
 }
 
 .text {
     font-family: Nunito;
     font-size: 14px;
     font-style: normal;
+    word-spacing: 3px;
     color: #FFFFFF;
+    width: 442px;
+    height: 86px;
+    line-height: 26.73px;
+}
+
+
+
+.project_list {
+    display: flex;
+    margin-left: 626.45px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.project_list {
+    margin: 0 0 0 626.45px;
+    height: 1074px;
+    max-width: 679px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    position: relative;
+}
+
+
+.city {
+    
+    list-style: none;
+    font-size: 11px;
+    color: #fff;
+    font-family: Nunito;
+}*/
+
+
+.block_2 {
+    margin: 0;
+    
+    height: 552.28px;
+    display: flex;
+    vertical-align: top;
+    margin-top: 107px;
+
+}
+.list {
+    margin-left: 134.45px;
+    
+}
+.small__header {
+    margin-top: 69.36px;
+    max-width: 253px;
+    height: 66px;
+    margin-bottom: 34px;
+    color: #E3B873;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-family: YesevaOne;
+    font-weight: 400;
+}
+
+.text {
+    margin-right: 50px;
+    width: 442px;
+    height: 86px;
+    font-family: Nunito;
+    font-size: 14px;
+    word-spacing: 3px;
+    color: #FFFFFF;
+    line-height: 26.73px;
+}
+
+.cities {
+    justify-content: flex-end;
+    text-transform: uppercase;  
+}
+
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    display: inline-block;
+}
+ul:first-child {
+    padding-left: 0;
+}
+
+
+.city {
+    font-family: YesevaOne;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 60.5px 0 0;
+    color: #FFFFFF;
+
+}
+
+.city a {
+    text-decoration: none;
+    color: grey;
+}
+
+.city :hover {
+    position: relative;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;  
+}
+
+
+
+
+.image__room {
+    margin-top: 52.68px;
+}
+
+
+
+/*Features
+=========*/
+.features {
+    width: 304px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 42px;
+    
+}
+
+
+
+.features__item {
+    margin: 0;
+    display: flex;
+    flex-flow: wrap;
+    /*height: 300px;*/
+    color: #FFFFFF;
+    text-align: left;
+    width: 50%;
+}
+
+.feature__title {
+    white-space: nowrap;
+    font-family: YesevaOne;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 9px;
+}
+
+.feature__text {
+    margin-bottom: 34px;
+    width: 150px;
+    
+}
+
+
+
+.projects_nav {
+    display: flex;
+    margin: 50px 0;
+    width: 205.68px;
+    height: 13.28px;
+    cursor: pointer;
+}
+.projects_nav:first-child {
+    margin: 0;
+}
+
+
+   .arrow_left {
+    /*width: 205.68px;*/
+    /*margin-top: 60px;*/
+  }
+  
+  .point__1 {
+      
+    width: 0;
+    height: 0;
+    border-top: 7.59px solid transparent;
+    border-right: 13px solid #FFFFFF;
+    border-bottom: 7.59px solid transparent;
+    float: left;
+    
+    
+  }
+  .line {
+    margin-top: 7px;
+    width: 40.51px;
+    background: #FFFFFF;
+    height: 1.34px;
+    float: left;
+  }
+
+
+.dot__pages {
+    margin: 0 17px;
+    width: 63.78px;
+    height: 9.57px;
+    display: flex;
+    justify-content: space-between;
+    /*padding: 0 10px;*/
+}
+
+
+.dot {
+    /*margin: 0 10px;*/
+    width: 9.57px;
+    height: 9.57px;
+    background-color: #FFFFFF;
+    opacity: 0.3;
+    border-radius: 50%;   
+}
+
+.dot__pages :hover{
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+
+/*.dot:first-child {
+    margin-left: 29.5px;
+}*/
+
+
+.arrow_right {
+
+}
+
+  /*.line {
+    margin-top: 7px;
+    width: 40.51px;
+    background: #FFFFFF;
+    height: 1.34px;
+    float: left;
+  }*/
+  .point__2 {
+      
+    width: 0;
+    height: 0;
+    border-top: 7.59px solid transparent;
+    border-left: 13px solid #FFFFFF;
+    border-bottom: 7.59px solid transparent;
+    float: left;
+    
+    
+  }
+  
+
+
+/*Online control
+=========*/
+.online_control {
+    height: 407px;
+    position: relative;
+}
+
+
+
+.center__text {
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 92px;
+    text-transform: uppercase;
+    font-family: YesevaOne;
+    font-weight: 400;
+    margin-bottom: 12.79px;
+}
+
+.flex-wrap__1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector {
+    padding: 9.47px;
+}
+
+.line__cam {
+    background-color: #E3B873;
+    height: 1.54px;
+    width: 32px;
+}
+
+
+
+
+
+/*submit_applocation
+=========*/
+
+.container_2 {
+    width: 100%;
+    /*max-width: 1440px;*/
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    height: 1466px;
+    position: relative;
+    
+}
+.repair__work {
+    position: relative;
+    margin-top: -217px;
+    left: 50%;
+    
+
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*display: block;
+    left: 50%;
+    width: 100%
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    position: absolute;
+}
+    /*margin-top: -217px;
+}
+.repair__work {
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   /* margin-left: 412px;
+    margin-top: -203px;
+    position: absolute;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.hidden_background {
+    width: 817px;
+    height: 434px;
+    position: relative;
+    margin-top: -50px;
+    background: purple;
+
+}*/
+
+
+
+
+
+
+
+/*
+
+
+.submit_application {
+    width: 817px;
+    height: 434px;
+    position: relative;
+    /*margin-top: -203px;*/
+}
+
+
+
+
+
+
+
+/*
+
+.repair__work {
+    position: absolute;
+    left: 312px;
+    /*margin-top: -203px;*/
+    z-index: 1;
+    opacity: 0.7;
+}*/
+
+/*.repair_work-overlay {
+    z-index: 10;
+    margin: 100px;
+    color: rgba(0, 0, 0, .7);
+}
+
+
+
+
+
+.circle {
+    margin-top: -280px;
+    margin-left: 676px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #E3B873;
+    z-index: 1;
+    content: '';
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.play { 
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-left: 28px solid #FFFFFF;
+    border-bottom: 14px solid transparent;
+    position: relative;
+    left: 32px;
+    top: 27px;
+    z-index: 1;
+}
+
+
+
+
+
+.line__under__picture {
+    height: 1.54px;
+    width: 55px;
+    background-color: #E3B873;
+    position: relative;
+    left: 50%;
+    top: 200px;
 
 }
