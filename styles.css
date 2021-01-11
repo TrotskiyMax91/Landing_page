@@ -356,24 +356,28 @@ ul:first-child {
 /*Online control
 =========*/
 .container_2 {
+    margin-top: -332px;  
+}
+.container_2-wrapper {
     margin: 0 auto;
-    background-color: #FFFFFF;
-    height: 1950px;
-    max-width: 1250px;  
+    max-width: 1250px;
 }
 
-
 .online_control {
+    /*max-width: 1250px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     height: 335px;
-    margin-top: -335px;
-    background-color: #000;
+    /*margin-top: -630px;
+    position: absolute;
+    z-index: 5;*/
 }
 
 .center__text {
     position: relative;
     color: #FFFFFF;
     text-align: center;
-    
     text-transform: uppercase;
     font-family: YesevaOne;
     font-weight: 400;
@@ -384,6 +388,7 @@ ul:first-child {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 31.21px;
 }
 
 .vector {
@@ -399,10 +404,8 @@ ul:first-child {
 
 
 .container__repair_overlay {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-top: -217px;
 }
 
 .contrainer__repair_image {
@@ -474,7 +477,7 @@ ul:first-child {
 
 .application_border {
     max-width: 520px;
-    height: 45.04px;
+    height: 230px;
 }
 .form {
     display: flex;
@@ -567,9 +570,12 @@ input[type="checkbox"] + label :active ::before {
     
         /*Types of repair
            =========*/
-
+.container_3 {
+background-color: #FFFFFF;
+}
 .facilities {
-    margin-top: 147.85px;
+    margin: 0 auto;
+    max-width: 1250px;
 }
     
 
@@ -656,7 +662,7 @@ input[type="checkbox"] + label :active ::before {
 =========*/
 
 
-.container_3 {
+.container_4 {
     width: 100%;
     background-color: #FFFFFF;
     height: 960px;
