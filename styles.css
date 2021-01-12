@@ -363,17 +363,6 @@ ul:first-child {
     max-width: 1250px;
 }
 
-.online_control {
-    /*max-width: 1250px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    height: 335px;
-    /*margin-top: -630px;
-    position: absolute;
-    z-index: 5;*/
-}
-
 .center__text {
     position: relative;
     color: #FFFFFF;
